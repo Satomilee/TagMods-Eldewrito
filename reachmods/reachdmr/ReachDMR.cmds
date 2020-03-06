@@ -1,168 +1,168 @@
 Echo Halo Reach DMR
 CreateTag "mode" 0x1E25
 NameTag 0x1E25 objects\weapons\rifle\dmr\dmr
-ImportTag 0x1E25 "files\tags\objects\weapons\rifle\dmr\dmr.render_model"
+ImportTag 0x1E25 "Tags\objects\weapons\rifle\dmr\dmr.render_model"
 
 CreateTag "rmsh" 0x5CE1
 Nametag 0x5CE1 objects\weapons\rifle\dmr\shaders\dmr_composite
-ImportTag 0x5CE1 "files\tags\0x5CE1.shader"
+ImportTag 0x5CE1 "Tags\0x5CE1.shader"
 
 CreateTag "rmsh" 0x5CDE
 Nametag 0x5CDE objects\weapons\rifle\dmr\shaders\dmr_lens
-ImportTag 0x5CDE "files\tags\0x5CDE.shader"
+ImportTag 0x5CDE "Tags\0x5CDE.shader"
 
 CreateTag "rmsh" 0x5CE2
 Nametag 0x5CE2 objects\weapons\rifle\dmr\shaders\dmr_metal
-ImportTag 0x5CE2 "files\tags\0x5CE2.shader"
+ImportTag 0x5CE2 "Tags\0x5CE2.shader"
 
 CreateTag "rmsh" 0x5CDB
 Nametag 0x5CDB objects\weapons\rifle\dmr\shaders\dmr_metal_shiny
-ImportTag 0x5CDB "files\tags\0x5CDB.shader"
+ImportTag 0x5CDB "Tags\0x5CDB.shader"
 
 CreateTag "rmsh" 0x5CDC
 Nametag 0x5CDC objects\weapons\rifle\dmr\shaders\dmr_rubber
-ImportTag 0x5CDC "files\tags\0x5CDC.shader"
+ImportTag 0x5CDC "Tags\0x5CDC.shader"
 
 CreateTag "rmsh" 0x5CDD
 Nametag 0x5CDD objects\shaders\decals\shaders\unsc_decals_fp
-ImportTag 0x5CDD "files\tags\0x5CDD.shader"
+ImportTag 0x5CDD "Tags\0x5CDD.shader"
 
 CreateTag "rmsh" 0x5CDA
 Nametag 0x5CDA objects\weapons\rifle\dmr\shaders\dmr_lens_glass
-ImportTag 0x5CDA "files\tags\0x5CDA.shader"
+ImportTag 0x5CDA "Tags\0x5CDA.shader"
 
 CreateTag "rmsh" 0x5CDF
 Nametag 0x5CDF objects\weapons\rifle\dmr\shaders\ones_dmr
-ImportTag 0x5CDF "files\tags\0x5CDF.shader"
+ImportTag 0x5CDF "Tags\0x5CDF.shader"
 
 CreateTag "rmsh" 0x5CE0
 Nametag 0x5CE0 objects\weapons\rifle\dmr\shaders\tens_dmr
-ImportTag 0x5CE0 "files\tags\0x5CE0.shader"
+ImportTag 0x5CE0 "Tags\0x5CE0.shader"
 
 CreateTag "bitm" 0x5CD5
 NameTag 0x5CD5 objects\weapons\rifle\dmr\bitmaps\scope
-ImportTag 0x5CD5 "files\tags\0x5CD5.bitmap"
+ImportTag 0x5CD5 "Tags\0x5CD5.bitmap"
 
 CreateTag "bitm" 0x5CD7
 NameTag 0x5CD7 objects\weapons\rifle\dmr\bitmaps\base_map
-ImportTag 0x5CD7 "files\tags\0x5CD7.bitmap"
+ImportTag 0x5CD7 "Tags\0x5CD7.bitmap"
 
 CreateTag "bitm" 0x5CD6
 NameTag 0x5CD6 objects\weapons\rifle\dmr\bitmaps\bump_map
-ImportTag 0x5CD6 "files\tags\0x5CD6.bitmap"
+ImportTag 0x5CD6 "Tags\0x5CD6.bitmap"
 
 CreateTag "bitm" 0x0376
 NameTag 0x0376 shaders\default_bitmaps\bitmaps\default_vector
-ImportTag 0x0376 "files\tags\shaders\default_bitmaps\bitmaps\default_vector.bitmap"
+ImportTag 0x0376 "Tags\shaders\default_bitmaps\bitmaps\default_vector.bitmap"
 
 CreateTag "bitm" 0x02B9
 NameTag 0x02B9 shaders\default_bitmaps\bitmaps\color_white
-ImportTag 0x02B9 "files\tags\shaders\default_bitmaps\bitmaps\color_white.bitmap"
+ImportTag 0x02B9 "Tags\shaders\default_bitmaps\bitmaps\color_white.bitmap"
 
 CreateTag "bitm" 0x0343
 NameTag 0x0343 shaders\default_bitmaps\bitmaps\default_detail
-ImportTag 0x0343 "files\tags\shaders\default_bitmaps\bitmaps\default_detail.bitmap"
+ImportTag 0x0343 "Tags\shaders\default_bitmaps\bitmaps\default_detail.bitmap"
 
 CreateTag "bitm" 0x02B7
 NameTag 0x02B7 shaders\default_bitmaps\bitmaps\gray_50_percent
-ImportTag 0x02B7 "files\tags\shaders\default_bitmaps\bitmaps\gray_50_percent.bitmap"
+ImportTag 0x02B7 "Tags\shaders\default_bitmaps\bitmaps\gray_50_percent.bitmap"
 
 CreateTag "bitm" 0x5CD8
 NameTag 0x5CD8 objects\weapons\rifle\dmr\bitmaps\ones
-ImportTag 0x5CD8 "files\tags\0x5CD8.bitmap"
+ImportTag 0x5CD8 "Tags\0x5CD8.bitmap"
 
 CreateTag "bitm" 0x5CD9
 NameTag 0x5CD9 objects\weapons\rifle\dmr\bitmaps\tens
-ImportTag 0x5CD9 "files\tags\0x5CD9.bitmap"
+ImportTag 0x5CD9 "Tags\0x5CD9.bitmap"
 
 CreateTag "mode" 0x0FF3
 NameTag 0x0FF3 objects\weapons\rifle\dmr\fp_dmr\fp_dmr
-ImportTag 0x0FF3 "files\tags\objects\weapons\rifle\dmr\fp_dmr\fp_dmr.render_model"
+ImportTag 0x0FF3 "Tags\objects\weapons\rifle\dmr\fp_dmr\fp_dmr.render_model"
 Savetagnames
 
 EditTag 0x1E25
 SetField Geometry.Resource.Page.Index -1
-SetField Geometry.Resource ResourcesB "files\tags\objects\weapons\rifle\dmr\dmr_geometry.render_geometry_api_resource_definition"
+SetField Geometry.Resource ResourcesB "Tags\objects\weapons\rifle\dmr\dmr_geometry.render_geometry_api_resource_definition"
 SaveTagChanges
-ExitTo tags
+ExitTo Tags
 
 EditTag 0x5CD5
 SetField Resources[0].Resource.Page.Index -1
-SetField Resources[0].Resource ResourcesB "files\tags\0x5CD5_image.bitmap_texture_interop_resource"
+SetField Resources[0].Resource ResourcesB "Tags\0x5CD5_image.bitmap_texture_interop_resource"
 SaveTagChanges
-ExitTo tags
+ExitTo Tags
 
 EditTag 0x5CD7
 SetField Resources[0].Resource.Page.Index -1
-SetField Resources[0].Resource ResourcesB "files\tags\0x5CD7_image.bitmap_texture_interop_resource"
+SetField Resources[0].Resource ResourcesB "Tags\0x5CD7_image.bitmap_texture_interop_resource"
 SaveTagChanges
-ExitTo tags
+ExitTo Tags
 
 EditTag 0x5CD6
 SetField Resources[0].Resource.Page.Index -1
-SetField Resources[0].Resource ResourcesB "files\tags\0x5CD6_image.bitmap_texture_interop_resource"
+SetField Resources[0].Resource ResourcesB "Tags\0x5CD6_image.bitmap_texture_interop_resource"
 SaveTagChanges
-ExitTo tags
+ExitTo Tags
 
 EditTag 0x0376
 SetField Resources[0].Resource.Page.Index -1
-SetField Resources[0].Resource ResourcesB "files\tags\shaders\default_bitmaps\bitmaps\default_vector_image.bitmap_texture_interop_resource"
+SetField Resources[0].Resource ResourcesB "Tags\shaders\default_bitmaps\bitmaps\default_vector_image.bitmap_texture_interop_resource"
 SaveTagChanges
-ExitTo tags
+ExitTo Tags
 
 EditTag 0x02B9
 SetField Resources[0].Resource.Page.Index -1
-SetField Resources[0].Resource ResourcesB "files\tags\shaders\default_bitmaps\bitmaps\color_white_image.bitmap_texture_interop_resource"
+SetField Resources[0].Resource ResourcesB "Tags\shaders\default_bitmaps\bitmaps\color_white_image.bitmap_texture_interop_resource"
 SaveTagChanges
-ExitTo tags
+ExitTo Tags
 
 EditTag 0x0343
 SetField Resources[0].Resource.Page.Index -1
-SetField Resources[0].Resource ResourcesB "files\tags\shaders\default_bitmaps\bitmaps\default_detail_image.bitmap_texture_interop_resource"
+SetField Resources[0].Resource ResourcesB "Tags\shaders\default_bitmaps\bitmaps\default_detail_image.bitmap_texture_interop_resource"
 SaveTagChanges
-ExitTo tags
+ExitTo Tags
 
 EditTag 0x02B7
 SetField Resources[0].Resource.Page.Index -1
-SetField Resources[0].Resource ResourcesB "files\tags\shaders\default_bitmaps\bitmaps\gray_50_percent_image.bitmap_texture_interop_resource"
+SetField Resources[0].Resource ResourcesB "Tags\shaders\default_bitmaps\bitmaps\gray_50_percent_image.bitmap_texture_interop_resource"
 SaveTagChanges
-ExitTo tags
+ExitTo Tags
 
 EditTag 0x5CD8
 SetField Resources[0].Resource.Page.Index -1
-SetField Resources[0].Resource ResourcesB "files\tags\0x5CD8_image.bitmap_texture_interop_resource"
+SetField Resources[0].Resource ResourcesB "Tags\0x5CD8_image.bitmap_texture_interop_resource"
 SaveTagChanges
-ExitTo tags
+ExitTo Tags
 
 EditTag 0x5CD9
 SetField Resources[0].Resource.Page.Index -1
-SetField Resources[0].Resource ResourcesB "files\tags\0x5CD9_image_0.bitmap_texture_interop_resource"
+SetField Resources[0].Resource ResourcesB "Tags\0x5CD9_image_0.bitmap_texture_interop_resource"
 SetField Resources[1].Resource.Page.Index -1
-SetField Resources[1].Resource ResourcesB "files\tags\0x5CD9_image_1.bitmap_texture_interop_resource"
+SetField Resources[1].Resource ResourcesB "Tags\0x5CD9_image_1.bitmap_texture_interop_resource"
 SetField Resources[2].Resource.Page.Index -1
-SetField Resources[2].Resource ResourcesB "files\tags\0x5CD9_image_2.bitmap_texture_interop_resource"
+SetField Resources[2].Resource ResourcesB "Tags\0x5CD9_image_2.bitmap_texture_interop_resource"
 SetField Resources[3].Resource.Page.Index -1
-SetField Resources[3].Resource ResourcesB "files\tags\0x5CD9_image_3.bitmap_texture_interop_resource"
+SetField Resources[3].Resource ResourcesB "Tags\0x5CD9_image_3.bitmap_texture_interop_resource"
 SetField Resources[4].Resource.Page.Index -1
-SetField Resources[4].Resource ResourcesB "files\tags\0x5CD9_image_4.bitmap_texture_interop_resource"
+SetField Resources[4].Resource ResourcesB "Tags\0x5CD9_image_4.bitmap_texture_interop_resource"
 SetField Resources[5].Resource.Page.Index -1
-SetField Resources[5].Resource ResourcesB "files\tags\0x5CD9_image_5.bitmap_texture_interop_resource"
+SetField Resources[5].Resource ResourcesB "Tags\0x5CD9_image_5.bitmap_texture_interop_resource"
 SetField Resources[6].Resource.Page.Index -1
-SetField Resources[6].Resource ResourcesB "files\tags\0x5CD9_image_6.bitmap_texture_interop_resource"
+SetField Resources[6].Resource ResourcesB "Tags\0x5CD9_image_6.bitmap_texture_interop_resource"
 SetField Resources[7].Resource.Page.Index -1
-SetField Resources[7].Resource ResourcesB "files\tags\0x5CD9_image_7.bitmap_texture_interop_resource"
+SetField Resources[7].Resource ResourcesB "Tags\0x5CD9_image_7.bitmap_texture_interop_resource"
 SetField Resources[8].Resource.Page.Index -1
-SetField Resources[8].Resource ResourcesB "files\tags\0x5CD9_image_8.bitmap_texture_interop_resource"
+SetField Resources[8].Resource ResourcesB "Tags\0x5CD9_image_8.bitmap_texture_interop_resource"
 SetField Resources[9].Resource.Page.Index -1
-SetField Resources[9].Resource ResourcesB "files\tags\0x5CD9_image_9.bitmap_texture_interop_resource"
+SetField Resources[9].Resource ResourcesB "Tags\0x5CD9_image_9.bitmap_texture_interop_resource"
 SaveTagChanges
-ExitTo tags
+ExitTo Tags
 
 EditTag 0x0FF3
 SetField Geometry.Resource.Page.Index -1
-SetField Geometry.Resource ResourcesB "files\tags\objects\weapons\rifle\dmr\fp_dmr\fp_dmr_geometry.render_geometry_api_resource_definition"
+SetField Geometry.Resource ResourcesB "Tags\objects\weapons\rifle\dmr\fp_dmr\fp_dmr_geometry.render_geometry_api_resource_definition"
 SaveTagChanges
-ExitTo tags
+ExitTo Tags
 
 Edittag objects\weapons\rifle\dmr\shaders\dmr_lens_glass.rmsh
 Setfield Shaderproperties[0].ShaderMaps[0].Bitmap shaders\default_bitmaps\bitmaps\alpha_grey50.bitm

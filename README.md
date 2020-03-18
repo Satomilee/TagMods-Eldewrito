@@ -1,10 +1,10 @@
-# H3Mods-Eldewrito-0.6/0.6.1
+# Mod-Collection-Eldewrito-0.6/0.6.1
 
 A Collection of my Halo 3 mods + misc for Eldewrito 0.6 and 0.6.1
 
 # To Install with FMM:
 
-1. Place h3mods or reachmods folder in Halo Online\Mods\Tagmods directory, if the tagmods folder does not exist you must create it.
+1. Place mods in Halo Online\Mods\Tagmods directory, if the tagmods folder does not exist you must create it.
 2. Open FMM and Install mods, H3 Hud recommended to be installed last.
 
 # Additional Information

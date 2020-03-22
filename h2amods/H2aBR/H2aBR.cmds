@@ -149,7 +149,7 @@ ExitTo tags
 Echo BR Model and Materials
 
 EditTag objects\weapons\rifle\battle_rifle\fp_battle_rifle\fp_battle_rifle.render_model
-ReplaceRenderGeometry Models\battle_rifle.dae
+ReplaceRenderGeometry Tags\Models\battle_rifle.dae
 setfield materials[0].rendermethod objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_scope.shader
 setfield materials[1].rendermethod objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_shader.shader
 setfield materials[2].rendermethod objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_scope.shader
@@ -159,7 +159,7 @@ SaveTagChanges
 ExitTo tags
 
 EditTag objects\weapons\rifle\battle_rifle\battle_rifle.render_model
-ReplaceRenderGeometry Models\battle_rifle.dae
+ReplaceRenderGeometry Tags\Models\battle_rifle.dae
 setfield materials[0].rendermethod objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_scope.shader
 setfield materials[1].rendermethod objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_shader.shader
 setfield materials[2].rendermethod objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_scope.shader

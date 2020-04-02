@@ -1,5 +1,5 @@
 @ECHO OFF
-ECHO Installing Halo Reach DMR...
+ECHO Installing Halo Reach Shotgun...
 
 if exist ..\..\..\..\maps\tags.dat (
 	GOTO Label0
@@ -8,7 +8,7 @@ if exist ..\..\..\..\maps\tags.dat (
 )
 
 :Label0
-Type ReachDMR.cmds | TagTool.exe ..\..\..\..\maps\tags.dat
+Type ReachShotgun.cmds | TagTool.exe ..\..\..\..\maps\tags.dat
 ECHO Installation Complete.
 pause
 GOTO End

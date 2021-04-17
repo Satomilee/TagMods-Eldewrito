@@ -1,6 +1,7 @@
 Applymodpackage Pak\Halo3hud.pak
 Nametag 0x000012BC ui\chud\player_waypoints
 Nametag 0x000012B9 ui\chud\grenade_waypoints
+Nametag 0x0000130B ui\chud\equipment_charge_meter
 Savetagnames
 
 Echo // Game Summary Intro Cards
@@ -63,6 +64,11 @@ Echo // Fix Vision Mode Equipment Bitmap
 Importtag 0x00005A81 Bitmaps/vision.bitm
 Edittag 0x00005A81
 ImportBitmap 0 Bitmaps/vision.dds
+Savetagchanges
+ExitTo Tags
+
+Edittag ui\chud\spartan.chdt
+Setfield HudWidgets[22].BitmapWidgets[1].Bitmap ui\chud\equipment_charge_meter.bitm
 Savetagchanges
 ExitTo Tags
 

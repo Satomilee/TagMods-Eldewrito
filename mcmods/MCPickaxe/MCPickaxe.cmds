@@ -11,6 +11,7 @@ Echo Import Model
 Edittag objects\weapons\melee\energy_blade\fp_energy_blade\fp_energy_blade.render_model
 ReplaceRenderGeometry Tags\pickaxe.dae
 Setfield Nodes[0].InversePosition 0.075 0 0.1
+Setfield Nodes[1].DefaultScale 0
 Setfield Materials[0].RenderMethod objects\weapons\melee\energy_blade\fp_energy_blade\fp_energy_blade\shaders\[01]_rmsh.rmsh
 Setfield Materials[1].RenderMethod objects\weapons\melee\energy_blade\fp_energy_blade\fp_energy_blade\shaders\[01]_rmsh.rmsh
 Savetagchanges

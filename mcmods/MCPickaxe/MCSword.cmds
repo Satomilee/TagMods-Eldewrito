@@ -1,0 +1,37 @@
+Echo Create Bitmaps
+Createtag bitm
+Nametag * objects\weapons\melee\minecraft_pickaxe\bitmaps\diffuse
+Savetagnames
+Edittag objects\weapons\melee\minecraft_pickaxe\bitmaps\diffuse.bitm
+Importbitmap 0 Tags\diffuse.dds
+Savetagchanges
+Exit
+
+Echo Import Model
+Edittag objects\weapons\melee\energy_blade\fp_energy_blade\fp_energy_blade.render_model
+ReplaceRenderGeometry Tags\pickaxe.dae
+Setfield Nodes[0].InversePosition 0.075 0 0.1
+Setfield Materials[0].RenderMethod objects\weapons\melee\energy_blade\fp_energy_blade\fp_energy_blade\shaders\[01]_rmsh.rmsh
+Setfield Materials[1].RenderMethod objects\weapons\melee\energy_blade\fp_energy_blade\fp_energy_blade\shaders\[01]_rmsh.rmsh
+Savetagchanges
+Exit
+
+Echo Shader / Effect Setup
+Edittag objects\weapons\melee\energy_blade\fp_energy_blade\fp_energy_blade\shaders\[01]_rmsh.rmsh
+Setfield ShaderProperties[0].TextureConstants[0].Bitmap objects\weapons\melee\minecraft_pickaxe\bitmaps\diffuse.bitm
+SetArgument albedo_color 1 1 1 1
+SetArgument self_illum_color 0.01 0.01 0.01 0.01
+Savetagchanges
+Exit
+
+Edittag objects\weapons\melee\energy_blade\fx\blade_activate.effe
+Removeblockelements Events 1 *
+Savetagchanges
+Exit
+
+Edittag objects\weapons\melee\energy_blade\energy_blade.weap
+Setfield Attachments[2].Type null
+Setfield Attachments[4].Type null
+Setfield WeaponHolsterMarker null
+Savetagchanges
+Exit

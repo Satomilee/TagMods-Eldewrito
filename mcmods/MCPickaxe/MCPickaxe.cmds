@@ -42,7 +42,7 @@ Echo Shader / Effect Setup
 Edittag objects\weapons\melee\energy_blade\fp_energy_blade\fp_energy_blade\shaders\[01]_rmsh.rmsh
 Setfield ShaderProperties[0].TextureConstants[0].Bitmap objects\weapons\melee\minecraft_pickaxe\bitmaps\diffuse.bitm
 SetArgument albedo_color 1 1 1 1
-SetArgument self_illum_color 0.01 0.01 0.01 0.01
+SetArgument self_illum_color 0.1 0.1 0.1 0.1
 Savetagchanges
 Exit
 

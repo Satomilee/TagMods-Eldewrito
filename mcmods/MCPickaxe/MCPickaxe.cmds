@@ -58,3 +58,8 @@ Setfield Attachments[4].Type null
 Setfield WeaponHolsterMarker weapon_back
 Savetagchanges
 Exit
+Edittag objects\weapons\melee\energy_blade\unarmed.weap
+Setfield FirstPerson[0].FirstPersonModel objects\weapons\melee\energy_blade\energy_blade.render_model
+Setfield WeaponHolsterMarker weapon_back
+Savetagchanges
+Exit

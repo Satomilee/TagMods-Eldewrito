@@ -52,6 +52,7 @@ Savetagchanges
 Exit
 
 Edittag objects\weapons\melee\energy_blade\energy_blade.weap
+Removeblockelements Functions 2
 Setfield Attachments[2].Type null
 Setfield Attachments[4].Type null
 Setfield WeaponHolsterMarker weapon_back

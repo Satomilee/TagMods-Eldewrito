@@ -34,6 +34,7 @@ Exit
 
 Edittag objects\weapons\melee\gravity_hammer\gravity_hammer.model
 Setfield RenderModel objects\weapons\melee\diamond_axe\diamond_axe.render_model
+Setfield LodModel null
 Savetagchanges
 Exit
 

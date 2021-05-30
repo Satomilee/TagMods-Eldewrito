@@ -37,12 +37,18 @@ Setfield RenderModel objects\weapons\melee\diamond_axe\diamond_axe.render_model
 Savetagchanges
 Exit
 
+Edittag objects\weapons\melee\gravity_hammer\fp_gravity_hammer\fp_gravity_hammer.render_model
+Copyblockelements MarkerGroups 0 *
+Exit
+
 Echo Setup First Person Model
 Duplicatetag objects\weapons\melee\energy_blade\fp_energy_blade\fp_energy_blade.render_model
 Nametag * objects\weapons\melee\diamond_axe\fp_diamond_axe\fp_diamond_axe
 Savetagnames
 Edittag objects\weapons\melee\diamond_axe\fp_diamond_axe\fp_diamond_axe.render_model
 ReplaceRenderGeometry Tags\axe.dae
+Removeblockelements MarkerGroups 0 *
+Pasteblockelements MarkerGroups
 Setfield Nodes[0].DefaultTranslation 0.006102035 -0.02029557 0.02489493
 Setfield Nodes[0].InversePosition 0.006 0.02 0.04
 Setfield Nodes[0].Name hammer

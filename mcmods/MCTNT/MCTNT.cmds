@@ -7,6 +7,47 @@ Importbitmap 0 Tags\tnt.dds
 Savetagchanges
 Exit
 
+Echo Sound Importing 
+Duplicatetag sound\effe\hum_damage_large1.snd!
+Nametag * sound\effe\minecraft_tnt\explosion
+Duplicatetag sound\effe\phantom_destroyed_mono_lod.snd!
+Nametag * sound\effe\minecraft_tnt\explosion_lod
+Savetagnames
+
+Edittag sound\effe\minecraft_tnt\explosion.snd!
+ImportSound 
+1
+1
+1
+2
+1
+Tags\explode.mp3
+1
+Setfield PlaybackParameters.GainBase 5
+Setfield PitchRanges[0].Permutations[0].GainHO 20
+Savetagchanges
+Exit
+
+Edittag sound\effe\minecraft_tnt\explosion_lod.snd!
+ImportSound 
+1
+1
+1
+2
+1
+Tags\explode_lod.mp3
+1
+Setfield PlaybackParameters.GainBase 5
+Setfield PitchRanges[0].Permutations[0].GainHO 15
+Savetagchanges
+Exit
+
+Edittag fx\scenery_fx\explosions\human_explosion_huge\human_explosion_huge.effe
+Setfield Events[0].Parts[3].Type sound\effe\minecraft_tnt\explosion.snd!
+Setfield Events[0].Parts[4].Type sound\effe\minecraft_tnt\explosion_lod.snd!
+Savetagchanges
+Exit
+
 Echo Setup Shaders
 Duplicatetag objects\weapons\melee\energy_blade\fp_energy_blade\fp_energy_blade\shaders\[01]_rmsh.rmsh
 Nametag * objects\weapons\melee\minecraft_tnt\minecraft_tnt

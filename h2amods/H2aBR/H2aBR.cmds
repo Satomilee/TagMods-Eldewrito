@@ -83,36 +83,65 @@ Setfield ShaderProperties[0].ShaderMaps[3].Bitmap objects\weapons\rifle\battle_r
 Setfield ShaderProperties[0].ShaderMaps[5].Bitmap objects\weapons\rifle\battle_rifle\h2a_battle_rifle\mat.bitmap
 Setfield ShaderProperties[0].ShaderMaps[6].Bitmap objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_illumination_map.bitmap
 Setargument base_map 1 1 0 0
+Setargument detail_map 5 5 0 0
 Setargument color_mask_map 0 0 0 0
-Setargument albedo_color 0.5 0.5 1 1
-Setargument albedo_color2 1 1 1 1
-Setargument albedo_color3 1 1 1 1
-Setargument bump_detail_map 0 0 0 0
+Setargument albedo_color 0.5 0.5 0.5 0.5
+Setargument albedo_color2 0.5 0.5 0.5 0.5
+Setargument albedo_color3 0.5 0.5 0.5 0.5
+Setargument neutral_gray 2 2 2 2
+Setargument bump_map 1 1 0 0
+Setargument bump_detail_map 5 9 1 1
 Setargument bump_detail_coefficient 1 1 1 1
+Setargument diffuse_coefficient 1 1 1 1
+Setargument specular_coefficient 1 1 1 1
 Setargument specular_tint 0.8352942 0.9607844 1 1
 Setargument use_fresnel_color_environment 1 1 1 1
 Setargument fresnel_color_environment 0.8078432 0.8784314 1 1
+Setargument fresnel_power 1 1 1 1
 Setargument roughness 0.8 0.8 0.8 0.8
 Setargument area_specular_contribution 0.12 0.12 0.12 0.12
 Setargument analytical_specular_contribution 0.65 0.65 0.65 0.65
 Setargument environment_map_specular_contribution 0.33 0.33 0.33 0.33
+Setargument rim_fresnel_color 1 1 1 1
+Setargument rim_fresnel_power 2 2 2 2
 Setargument albedo_blend 0.98 0.98 0.98 0.98
 Setargument env_roughness_scale 0 0 0 0
-Setargument self_illum_color 1 0 0 1
-Setargument self_illum_intensity 11 11 11 11
+Setargument self_illum_map 1 1 1 0
+Setargument self_illum_color 1 1 1 1
+Setargument self_illum_intensity 5 5 5 5
 SaveTagChanges
 ExitTo tags
 
-DuplicateTag objects\weapons\rifle\dmr\dmr\shaders\[02]_rmsh.shader
+DuplicateTag objects\weapons\rifle\dmr\fp_dmr\fp_dmr_v6\shaders\[11]_rmsh.shader
 NameTag * objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_scope
 Savetagnames
 
 EditTag objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_scope.shader
-Setfield ShaderProperties[0].ShaderMaps[0].Bitmap objects\weapons\rifle\sniper_rifle\sniper_rifle\bitmaps\[03]_rmsh\base.bitm
-Setfield ShaderProperties[0].ShaderMaps[1].Bitmap shaders\default_bitmaps\bitmaps\default_detail.bitm
-Setfield ShaderProperties[0].ShaderMaps[2].Bitmap shaders\default_bitmaps\bitmaps\gray_50_percent.bitm
-Setargument analytical_specular_contribution 0 0 0 0
-Setargument env_tint_color 0.05 0.05 0.3 1
+Setargument base_map 1 1 0 0
+Setargument albedo_color 0 0.9 0.4 1
+Setargument detail_map 1 1 0 0
+Setargument bump_map 1 1 0 0
+Setargument height_map 1 1 0 0
+Setargument height_scale 1 1 0 0
+Setargument diffuse_coefficient 2 2 2 2
+Setargument specular_coefficient 0.1 0.1 0.1 0.1
+Setargument specular_tint 1 0.7137255 0.52455 1
+Setargument fresnel_color 0 0.4019608 0.563214 1
+Setargument fresnel_power 1 1 1 1
+Setargument roughness 0.3 0.3 0.3 0.3
+Setargument area_specular_contribution 0.45 0.45 0.45 0.45
+Setargument analytical_specular_contribution 1 1 0 0
+Setargument material_texture 1 1 0 0
+Setargument albedo_blend_with_specular_tint 0 0 0 0
+Setargument albedo_blend 0 0 0 0
+Setargument analytical_anti_shadow_control 0 0 0 0
+Setargument rim_fresnel_coefficient 7 7 7 7
+Setargument rim_fresnel_color 0 0.956345 0.6453 1
+Setargument rim_fresnel_power 0.75 0.75 0.75 0.75
+Setargument rim_fresnel_albedo_blend 1 1 1 1
+Setargument self_illum_map 0.74567 -1 1 1
+Setargument self_illum_color 0.2234 0.9843138 0.544 1
+Setargument self_illum_intensity 1 1 1 1
 SaveTagChanges
 ExitTo tags
 

@@ -43,8 +43,8 @@ Savetagchanges
 Exit
 
 Echo Fix Scorpion Duplicate Effect
-Duplicatetag fx\scenery_fx\explosions\human_explosion_huge\human_explosion_huge
-Nametag * Edittag fx\scenery_fx\explosions\human_explosion_huge\human_explosion_huge_scorpion
+Duplicatetag fx\scenery_fx\explosions\human_explosion_huge\human_explosion_huge.effe
+Nametag * fx\scenery_fx\explosions\human_explosion_huge\human_explosion_huge_scorpion
 Savetagnames
 Edittag objects\vehicles\scorpion\scorpion.model
 Setfield NewDamageInfo[0].DamageSections[1].InstantResponses[0].PrimaryTransitionEffect fx\scenery_fx\explosions\human_explosion_huge\human_explosion_huge_scorpion.effe

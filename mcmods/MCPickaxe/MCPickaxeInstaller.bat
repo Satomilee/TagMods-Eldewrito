@@ -1,5 +1,5 @@
 @ECHO OFF
-ECHO Installing Minecraft Pickaxe...
+ECHO Installing Minecraft Diamond Pickaxe...
 
 if exist ..\..\..\..\maps\tags.dat (
 	GOTO Label0
@@ -8,7 +8,7 @@ if exist ..\..\..\..\maps\tags.dat (
 )
 
 :Label0
-Type MCPickaxe.cmds | TagTool.exe ..\..\..\..\maps\tags.dat
+Type MCPickaxe.cmds | Tagtool\TagTool.exe ..\..\..\..\maps\tags.dat
 ECHO Installation Complete.
 pause
 GOTO End

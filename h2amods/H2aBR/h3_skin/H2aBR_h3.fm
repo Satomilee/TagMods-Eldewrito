@@ -6,7 +6,7 @@ if exist mods\tagmods\h2amods\H2aBR\h3_skin (
 )
 :Label0
 cd mods\tagmods\h2amods\H2aBR\h3_skin
-Type H2aBR_h3.cmds | ..\TagTool.exe ..\..\..\..\..\maps\tags.dat
+Type H2aBR_h3.cmds | ..\Tagtool\TagTool.exe ..\..\..\..\..\maps\tags.dat
 ECHO FMM_OUTPUT Halo 2 Anniversary Battle Rifle (Halo 3 Skin) has been installed!
 GOTO End
 

@@ -6,7 +6,7 @@ if exist mods\tagmods\h2amods\H2aBR\ms30_skin (
 )
 :Label0
 cd mods\tagmods\h2amods\H2aBR\ms30_skin
-Type H2aBR_ms30.cmds | ..\TagTool.exe ..\..\..\..\..\maps\tags.dat
+Type H2aBR_ms30.cmds | ..\Tagtool\TagTool.exe ..\..\..\..\..\maps\tags.dat
 ECHO FMM_OUTPUT Halo 2 Anniversary Battle Rifle (ms30 skin) has been installed!
 GOTO End
 

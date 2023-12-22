@@ -6,9 +6,9 @@ if exist mods\tagmods\reachmods\reachdmr (
 )
 :Label0
 cd mods\tagmods\reachmods\reachdmr
-Type reachdmr.cmds | TagTool.exe ..\..\..\..\maps\tags.dat
+Type reachdmr.cmds | Tagtool\TagTool.exe ..\..\..\..\maps\tags.dat
 FOR %%f IN (fonts) DO copy %%f ..\..\..\..\maps\fonts
-ECHO FMM_OUTPUT Halo Reach DMR by Satomi#7010 has been installed!
+ECHO FMM_OUTPUT Halo Reach DMR by Satomi has been installed!
 GOTO End
 
 :Label1

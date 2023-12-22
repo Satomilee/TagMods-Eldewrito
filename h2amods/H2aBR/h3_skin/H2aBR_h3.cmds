@@ -74,10 +74,10 @@ Savetagnames
 Echo BR Bitmaps Setup
 
 DuplicateTag objects\weapons\rifle\smg\fp_smg\fp_smg_v1\shaders\[00]_rmsh.shader
-NameTag * objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_shader
+NameTag * objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body
 Savetagnames
 
-EditTag objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_shader.shader
+EditTag objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body.shader
 Setfield ShaderProperties[0].ShaderMaps[0].Bitmap objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body.bitmap
 Setfield ShaderProperties[0].ShaderMaps[3].Bitmap objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_bump.bitmap
 Setfield ShaderProperties[0].ShaderMaps[5].Bitmap objects\weapons\rifle\battle_rifle\h2a_battle_rifle\mat.bitmap

@@ -1,5 +1,5 @@
 @ECHO OFF
-ECHO Installing Minecraft Axe...
+ECHO Installing Minecraft Diamond Axe...
 
 if exist ..\..\..\..\maps\tags.dat (
 	GOTO Label0
@@ -8,7 +8,7 @@ if exist ..\..\..\..\maps\tags.dat (
 )
 
 :Label0
-Type MCAxe.cmds | TagTool.exe ..\..\..\..\maps\tags.dat
+Type MCAxe.cmds | Tagtool\TagTool.exe ..\..\..\..\maps\tags.dat
 ECHO Installation Complete.
 pause
 GOTO End

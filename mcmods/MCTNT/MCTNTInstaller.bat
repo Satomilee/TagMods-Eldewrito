@@ -8,7 +8,7 @@ if exist ..\..\..\..\maps\tags.dat (
 )
 
 :Label0
-Type MCTNT.cmds | TagTool.exe ..\..\..\..\maps\tags.dat
+Type MCTNT.cmds | Tagtool\TagTool.exe ..\..\..\..\maps\tags.dat
 ECHO Installation Complete.
 pause
 GOTO End

@@ -8,7 +8,7 @@ if exist ..\..\..\..\maps\tags.dat (
 )
 
 :Label0
-Type Elucidator.cmds | TagTool.exe ..\..\..\..\maps\tags.dat
+Type Elucidator.cmds | Tagtool\TagTool.exe ..\..\..\..\maps\tags.dat
 ECHO Installation Complete.
 pause
 GOTO End

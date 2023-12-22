@@ -8,7 +8,7 @@ if exist ..\..\..\..\maps\tags.dat (
 )
 
 :Label0
-Type MCBlock.cmds | TagTool.exe ..\..\..\..\maps\tags.dat
+Type MCBlock.cmds | Tagtool\TagTool.exe ..\..\..\..\maps\tags.dat
 ECHO Installation Complete.
 pause
 GOTO End
